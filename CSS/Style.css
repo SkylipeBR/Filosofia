@@ -10,6 +10,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
+    background:linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url('../Images/wall.jpg');
 }
 
 main .banner
@@ -51,6 +52,7 @@ main .banner .banner-content p
     margin: 50px 0px;
     padding: 50px;
     background: #e7e7e7;
+    color: #000;
 }
 
 .introducao .box-secao .pag-secao,
@@ -68,10 +70,54 @@ main .banner .banner-content p
     text-align: left;
 }
 
+.introducao .introducao-content .introducao-text
+{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    color: #fff;
+}
+
+.introducao 
+{
+    color: #fff;
+}
+
+.moral .box-secao ul
+{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    color: rgb(63, 48, 48);
+    width: 100%;
+    text-align: left;
+}
+
+.moral .box-secao ul li
+{
+    border: none;
+    border-radius: 08px;
+    padding: 32px;
+    width: 300px;
+    height: 15  0px;
+    list-style: none;
+    font-size: 1em;
+    box-shadow: 0px 2px 50px 0px rgba(0,0,0, 0.5);
+    transition: 0.5s;
+}
+
+.moral .box-secao ul li:hover
+{
+   
+}
+
 .moral .box-secao .pag-secao .box-secao-text,
 .etica .box-secao .pag-secao .box-secao-text
 {
-    text-align: right;
+    text-align: left;
 }
 
 .introducao .box-secao .pag-secao .box-secao-img img,
@@ -95,4 +141,9 @@ main .banner .banner-content p
     text-align: center;
     font-size: 3em;
     margin: 60px 0px;
+}
+
+ion-icon
+{
+    font-size: 2em;
 }
