@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+main .banner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url('../Images/banner.jpg');
+    background-size: cover;
+}
+
+main .banner .banner-content
+{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+main .banner .banner-content p
+{
+    margin: 5px 0px;
+    font-size: 0.8em;
+}
+
+.introducao,
+.moral,
+.etica
+{
+    padding: 50px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.introducao .box-secao,
+.moral .box-secao,
+.etica .box-secao
+{
+    margin: 50px 0px;
+    padding: 50px;
+    background: #e7e7e7;
+}
+
+.introducao .box-secao .pag-secao,
+.moral .box-secao .pag-secao,
+.etica .box-secao .pag-secao
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.introducao .box-secao .pag-secao .box-secao-text
+{
+    text-align: left;
+}
+
+.moral .box-secao .pag-secao .box-secao-text,
+.etica .box-secao .pag-secao .box-secao-text
+{
+    text-align: right;
+}
+
+.introducao .box-secao .pag-secao .box-secao-img img,
+.etica .box-secao .pag-secao .box-secao-img img
+{
+    height: 350px;
+}  
+
+
+.parallax
+{
+    height: 80vh;
+    background:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.7)), url('../Images/moral.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.divisor
+{
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 3em;
+    margin: 60px 0px;
+}
