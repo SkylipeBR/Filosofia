@@ -156,9 +156,30 @@ main .banner .banner-content p
 
 .etica .box-secao .box-secao-text-etica
 {
-    margin: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 150px 0px;
     text-align: left;
 }
+
+#box-secao-text-etica-ul 
+{
+    display: block;
+}
+
+#box-secao-text-etica-ul .box-secao-text-flex 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 150px;
+    margin: 150px 0px;
+    text-align: left;
+}
+
 
 
 
@@ -187,6 +208,15 @@ main .banner .banner-content p
     background:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.7)), url('../Images/valores-divisor.jpg');
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+    font-size: 3em;
+    height: 100vh;
+}
+
+.divisor-etica
+{
+    background: url('../Images/divisor-etica.jpg');
+    background-size: cover;
     text-align: center;
     font-size: 3em;
     height: 100vh;
