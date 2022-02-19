@@ -85,10 +85,12 @@ main .banner .banner-content p
     color: #000;
 }
 
-.introducao 
+.introducao .introducao-content .introducao-text,
+.introducao
 {
-    color: #000;
+    color: #fff;
 }
+
 
 .moral .box-secao ul,
 .etica .box-secao .box-secao-text-etica ul
