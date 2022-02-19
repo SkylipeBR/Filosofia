@@ -10,8 +10,7 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.3)), url(../Images/fundo.jpeg);
-    background-size: cover;
+    background: #8c7d70;
 }
 
 main .banner
